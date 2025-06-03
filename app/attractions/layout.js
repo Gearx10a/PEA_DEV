@@ -24,10 +24,12 @@ export default function layout({
             </IconButton>
               <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                 <Link href="/attractions" style={{ textDecoration: 'none', color: 'white' }}>
-                    Travel App
+                    Wongnok Recipes (PEA DevPool App by 513080)
                 </Link>
               </Typography>
+            <Button color="inherit">Register</Button>
             <Button color="inherit">Login</Button>
+            <Button color="inherit">Logout</Button>
           </Toolbar>
         </AppBar>
       </Box>
