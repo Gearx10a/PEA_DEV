@@ -22,7 +22,7 @@ export default async function page() {
 
       <Grid container spacing={1}>
         {data.map(attraction => (
-          <Grid item key={attraction.id} xs={12} md={4}>
+          <Grid item key={attraction.id_food} xs={12} md={4}>
             <Card>
               <CardMedia
                 sx={{ height: 140 }}
